@@ -112,7 +112,9 @@ export default function Lowerhero() {
 
   return (
     <div className=" flex justify-center">
-       <motion.div
+       
+      <div className="Lowerherosectionmain container">
+      <motion.div
           initial={{ opacity: 0 }} // Initial state (opacity 0)
           animate={{ 
           opacity: inView ? 1 : 0, // Animate opacity based on inView
@@ -120,7 +122,6 @@ export default function Lowerhero() {
           transition={{ duration: 0.5 }} // Animation duration (in seconds)
           ref={ref} className={`download-app-container  ${inView ? 'animated' : ''}`}
         >
-      <div className={`Lowerherosectionmain container`}>
         <div className="upperloewrnavigationskillcurosel flex overflow-auto  ">
           <div className="canbeother ">
             <div
@@ -247,8 +248,9 @@ export default function Lowerhero() {
 
           </div>}
         </div>
+        </motion.div>
       </div>
-      </motion.div>
+      
     </div>
   );
 }
