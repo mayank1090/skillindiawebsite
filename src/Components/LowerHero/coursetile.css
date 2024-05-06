@@ -1,0 +1,63 @@
+.maincousretilesec {
+    background-image: url("../../../public/backimage.jpg");
+    padding: 1.25rem;
+    flex: 1;
+    min-width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    background-size:cover;
+    /* Initial size of the background */
+    transition: background-size 0.3s ease-in-out;
+    background-size: 180%;
+    cursor: pointer;
+}
+
+.maincousretilesec:hover {
+    background-size: 200%;
+}
+
+.anyyehg {
+    background: linear-gradient(180deg, rgba(251, 249, 249, 0) 0%, #000000 100%);
+    position: absolute;
+    top: 20%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.themainuppertext {
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 140px;
+}
+
+.fastaricon {
+    color: #df6e12;
+}
+
+.thelowernumberofuser {
+    font-weight: 600;
+}
+
+.gotocousee {
+    font-weight: 600;
+}
+
+.thetoprightblueonline{
+    padding: 0.8rem 1.5rem;
+    background-color: #042cb0;
+    color: #ffffff;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 1rem;
+}

@@ -1,0 +1,53 @@
+.theupperforskillconnect {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #F6F6F6;
+}
+
+.fortheonewhowasconn {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 30px;
+    margin-left: 1rem;
+}
+
+.theonecardfortheconnect{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 20px #d1d1d14d;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.theonewhichisdone{
+        font-weight: 500;
+        font-size: 1.25rem;
+        color: #333333;
+        line-height: normal;
+        margin-bottom: 15px;
+        text-overflow: ellipsis;
+        min-height: 72px;
+}
+
+.jusfortwhatthelese{
+    height: auto;
+}
+
+.jusfortwhatthelese{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666666;
+    line-height: normal;
+    margin-bottom: 15px;
+    text-overflow: ellipsis;
+    height: auto;
+}
+
+.theloweroneforthebest .flex.gap-2{
+    align-items: center;
+}

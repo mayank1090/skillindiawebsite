@@ -1,0 +1,42 @@
+.thebinsidetgreytext{
+    background-color: #f9f9f9;
+
+}
+
+.theinsidetextofthe{
+    font-weight: 500;
+}
+
+.theotherwoneforthelimitedword{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+    word-wrap: break-word;
+    min-height: 24px;
+    max-height: 24px;
+    word-break: break-word;
+}
+
+.theskillcenterprntdiv{
+    padding: 1.25rem;
+    box-shadow: 0 4px 20px #d1d1d14d;
+    border-radius: 10px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    flex: 1;
+    cursor: pointer;
+}
+
+.thebinsidetgreytext{
+    border-radius: 0.5rem;
+    width: 80%;
+}
+
+.theaboveshareicon{
+    color: #df6e12;
+}

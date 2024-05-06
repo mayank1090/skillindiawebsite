@@ -1,0 +1,142 @@
+.theinnerlogoandtextinli,
+.leftoftherightnavbarsectionforlogin {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.thelichildofthenavbarprnt :hover .theleftlogoofp {
+    color: #df6e12;
+    cursor: pointer;
+}
+
+.thelichildofthenavbarprnt {
+    padding: 1rem 0px;
+}
+
+.forsearchandcontact :hover {
+    color: #df6e12;
+    cursor: pointer;
+}
+
+.Registerbutton,
+.LOginbutton {
+    margin-left: 1rem;
+    border: 1px solid #df6e12;
+    border-radius: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.Registerbutton {
+    background-color: #df6e12;
+    color: white;
+}
+
+.LOginbutton {
+    color: #df6e12;
+}
+
+.theleftlogoofp {
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.leftimglogo {
+    max-width: 20px;
+    min-width: 20px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.rightimglogo {
+    max-width: 97px;
+    min-width: 97px;
+    max-height: 32px;
+    min-height: 32px;
+}
+
+.smaeleftpaddings{
+    padding: 0 5rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .smaeleftpaddings.flex.items-center {
+        padding: 0px 1.5rem;}
+}
+
+.thehamburgericonfornavbar{
+    font-size: 1.75rem;
+}
+
+@media screen and (min-width:1200px) {
+    .thenavbarlinesicon{
+        display: none;
+    }
+
+    .smaeleftpaddings{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .theabsoluteboxforanotherinfo{
+        display: none;
+    }
+    
+    .mainnavbarsection{
+        display: none;
+    }
+}
+
+.smaeleftpaddings{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 999999999;
+}
+
+.wecanhavetheusericonalso{
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:640px){
+    .smaeleftpaddings{
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:960px){
+    .smaeleftpaddings{
+        padding: 0 3rem;
+    }
+}
+
+.theabsoluteboxforanotherinfo {
+    position: absolute;
+    left: -1.5rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+}
+
+.thetextoneprntfortheabsoluteboc,.thetextforabsdolyyre{
+    border-bottom: 1px solid #333333;;
+}
+
+.theabsoluteboxforanotherinfo{
+    width: 10rem;
+    border: 1px solid #333333;
+    border-radius: 1rem;
+
+}
+
+.thetextforabsdolyyre:nth-child(3){
+    border-bottom: 0px;
+}
+
+

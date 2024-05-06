@@ -1,0 +1,99 @@
+
+
+.downloappapdectio {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #042CB0;
+    margin: 0 0 16px;
+}
+
+.theregularinstructiondto {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666666;
+    padding: 0 0 42px;
+}
+
+.wewentfortheliofnor {
+    max-width: 28%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.divforthelastdownloadapp{
+    width: 100%;
+    text-align: center;
+}
+
+.justbewothetheapp{
+    width: 90px;
+    height: 90px;
+}
+
+.themainupperone {
+    position: relative;
+    overflow: hidden;
+}
+
+.theabsoluteonefortheleft{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-53%);
+    right: calc(50% - 683px);
+}
+
+.thedowloadone{
+    max-height: 100%;
+    width: auto;
+}
+
+@media screen and (max-width:640px) {
+    .divforthelastdownloadapp.flex.flex-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .theonefortheulforthedownload{
+        flex-wrap: wrap;
+    }
+
+    .thejustfortheijj{
+        display: block;
+    }
+
+    .wewentfortheliofnor {
+        max-width: 100%;
+        flex: 1 1;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    li.wewentfortheliofnor.flex.gap-2.items-center {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .themainupperone {
+        padding: 170px 0;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .themainupperone {
+        padding: 120px 0;
+    }
+
+    .divforthelastdownloadapp{
+        width: 44%;
+        text-align: start;
+    }
+}

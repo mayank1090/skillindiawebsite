@@ -1,0 +1,38 @@
+.jobexchangejobtilemainprnt {
+    padding: 1.25rem;
+    box-shadow: 0 4px 20px #d1d1d14d;
+    border-radius: 10px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    flex: 1;
+}
+
+.thelowerupperpboldtext{
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+    min-height: 24px;
+    max-height: 24px;
+    word-break: break-word;
+    font-size: 1.25rem;
+}
+
+.forthebackgroundoftheshare{
+    padding: 6px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.thelowertolowerpbboldth,.theleftrightboctolateamount{
+    font-weight: 700;
+}

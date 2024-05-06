@@ -1,0 +1,170 @@
+.themainopprtuniespageprntdiv {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.thelowerwhichismainwithpad {
+    background: #ffffff;
+    box-shadow: 0 0 20px #042cb00d;
+    border-radius: 10px;
+    width: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    display: flex;
+    align-items: baseline;
+}
+
+.theimageundertheh4 {
+    margin-bottom: 10px;
+    width: 157px;
+}
+
+.theupperofthetheopprtuniesh3 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.theupperofthetheopprtuniesh4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.theleftandthecoptyofrightalso {
+    height: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.justfortheajustment {
+    margin-top: 81px;
+}
+
+.theultimatebuttonforexplorethe {
+    background: #ffffff;
+    box-shadow: 0 0 20px #042cb00d;
+    border-radius: 70px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 4px 20px 4px 4px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.thebackgroundtheoftheworld {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #042cb01a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wecanhaveitforthebluespan {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #042cb0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.thebiggeroneforthett {
+    max-width: 210px;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.therelayoneforthe {
+    background-color: #df6e12;
+}
+
+.anotherh4becausewohthe {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.theh3fortheh4below2h {
+    font-weight: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.theleftfortheslect {
+    width: 80%;
+}
+
+.theotherdivfortheselectprntdiv {
+    background-color: #ffffff;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+}
+
+.ontheleft1by5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+    color: #ffffff;
+}
+
+.wecantheotherbuttonforblue {
+    background-color: #042cb0;
+}
+
+.thefotteroftheservicesasside {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.anyonttany {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.justrml {
+    margin-left: 0px;
+}
+
+.thelowerwhichismainwithpad {
+    height: 86%;
+    transition: .5s;
+    transform: scale(1);
+
+}
+
+.thelowerwhichismainwithpad:hover {
+    transform: scale(1.03)
+}
+
+.slick-slide {
+    padding: 0 10px;
+}
+
+/* the parent */
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    display: flex;
+    height: auto;
+}
+
+.slick-slide>div {
+    height: 100%;
+}
+
+.thelowerforthebottomoneopp {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.anyinputofselect{
+    width: 75%;
+}

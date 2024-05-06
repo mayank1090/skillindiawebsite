@@ -1,0 +1,37 @@
+.wecanhavethemainupperhead{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.thelowerbelowimageofconetctt{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem ;
+    margin-bottom: 1rem;
+}
+
+.lowersmalltextbelowimageandtext{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 320px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.imageprntfortheskillediniaone{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thebelowskilledindiamianonepart{
+    flex: 1;
+    transition: .5s;
+    transform: scale(1);
+}
+
+.thebelowskilledindiamianonepart:hover{
+    transform: scale(1.05)
+}
+

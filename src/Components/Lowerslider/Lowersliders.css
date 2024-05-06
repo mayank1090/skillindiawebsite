@@ -1,0 +1,47 @@
+@media screen and (min-width:768px) {
+    .fortherightcontetntone {
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .forjustghavingtheflex {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .theleftimagforthelisderonly {
+        width: 80%;
+    }
+
+    .fortherightcontetntone {
+        align-items: center;
+    }
+
+    .fortheh2withleftmargin8,
+    .thelowerofthegreytext {
+        text-align: center;
+    }
+
+
+}
+
+.fortheh2withleftmargin8 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #333333;
+    margin: 0 0 20px;
+    max-width: 530px;
+}
+
+.thelowerofthegreytext {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #767676;
+    margin: 0 0 40px;
+}
+
+.theleftimagforthelisderonly {
+    width: 45%;
+}

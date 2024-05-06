@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.theliofthenatimation{
+   position: absolute;
+   right: -80px;
+   top: calc(50% - 26px);
+   height: 20px;
+   overflow: hidden;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.theMainapp{
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.themainsidepopupnotificationanimation{
+    right: 0;
+}
+
+.theliofthenatimation1{
+    position: absolute;
+    right: -80px;
+    top: calc(50% - 46px);
+    height: 20px;
+    overflow: hidden;
+}
+
+.theliofthenatimation2{
+    position: absolute;
+    right: -80px;
+    top: calc(50% - 6px);
+    height: 20px;
+    overflow: hidden;
+}
+
+.theliofthenatimation3{
+    position: absolute;
+    right: -80px;
+    top: calc(50% + 16px);
+    height: 20px;
+    overflow: hidden;
+}
+
+.theliofthenatimation4{
+    position: absolute;
+    right: -80px;
+    top: calc(50% + 36px);
+    height: 20px;
+    overflow: hidden;
+}
+
+  @keyframes moveout {
+    from { right: -80px; }
+    to   { right: 0px; }
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .theliofthenatimation:hover,.theliofthenatimation3:hover,.theliofthenatimation4:hover {
+    animation: moveout 1s ease forwards; /* Animation properties on hover */
+    height: fit-content;
   }
-  to {
-    transform: rotate(360deg);
+
+  .theliofthenatimation1:hover {
+    animation: moveout 1s ease forwards; /* Animation properties on hover */
+    height: fit-content;
   }
-}
+
+  .theliofthenatimation2:hover {
+    animation: moveout 1s ease forwards; /* Animation properties on hover */
+    height: fit-content;
+  }
+
+  .theparentofthelinsideanimation{
+    align-items: center;
+  }
+
+  .theparentofthelioftheanimationnotificationbar > li{
+    padding: 0.5rem;
+    height: fit-content;
+  }
+
+
+  /* forhero */
+
+  .heromainimgsec{
+    height: 600px;
+  }
+
+  .themainlowerofthemainpage{
+    margin-top: 3.5rem;
+  }
+
+
+  @media screen and (max-width:768px) {
+    .heromainimgsec {
+      height: 500px;
+  }
+  }
+
+ 
